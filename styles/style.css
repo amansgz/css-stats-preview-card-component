@@ -1,0 +1,102 @@
+:root {
+  --very-dark-blue: hsl(233, 47%, 7%); 
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --light-transparent-white: hsla(0, 0%, 100%, 0.6);
+  --soft-violet: hsl(277, 64%, 61%);
+  --light-violet: hsl(277, 92%, 40%);
+  --white: hsl(0, 0%, 100%); 
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--very-dark-blue);
+}
+.card {
+  width: max(70vw, 330px);
+  overflow: hidden;
+  background-color: var(--dark-desaturated-blue);
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: opacity(0.4) drop-shadow(0 0 0 var(--light-violet));
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-title {
+  width: min(60vw, 300px);
+  font-size: 26px;
+  padding: 1.5rem 0 1rem;
+  color: var(--white);
+}
+.card-title strong {
+  color: var(--soft-violet);
+}
+.card-text {
+  width: min(69vw, 300px);
+  padding-bottom: 1rem;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--slightly-transparent-white);
+}
+.card-stats {
+  display: flex;
+  flex-direction: column;
+  padding: .5rem 0;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.card-stats-headings {
+  display: block;
+  padding: .5rem ;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--light-transparent-white);
+}
+@media screen and (min-width: 768px) {
+  .card-body {
+    padding: 3rem;
+  }  
+  .card-stats {
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 3rem;
+  } 
+}
+@media screen and (min-width: 1200px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 1024px;
+  }
+  .card-body {
+    padding: 5rem;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .card-stats-headings {
+    padding-top: .3rem;
+    padding-left: 0;
+  }
+}

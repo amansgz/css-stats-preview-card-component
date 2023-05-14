@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./styles/images/favicon-32x32.png">
+  <!-- FONTS Inter 400 / 700. Lexend Deca 400 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Frontend Mentor | Css Stats Preview Card Component</title>
+</head>
+<body>
+  <main>
+  <article class= "card">
+    <picture>
+      <source 
+        srcset= "./styles/images/image-header-desktop.jpg" 
+        media= "(min-width: 1200px)" 
+        alt= "Data analitycs team  working at office ">
+      <img class= "image"
+        src= "./styles/images/image-header-mobile.jpg" alt= "Data analitycs team  working at office">
+    </picture>
+    
+    <div class= "card-body">
+      <h1 class= "card-title">
+        Get <strong>insights</strong> that help your business grow.
+      </h1>
+      <p class= "card-text">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+      </p> 
+      <div class= "card-stats">
+        <p>
+          10k+ 
+          <span class= "card-stats-headings">
+            companies
+          </span>
+        </p>
+        <p>
+          314 
+          <span class= "card-stats-headings">
+            templates
+          </span>
+        </p>
+        <p>
+          12m+ 
+          <span class= "card-stats-headings">
+            queries
+          </span>
+        </p>
+      </div>
+    </div>
+  </article>  
+  </main>
+</body>
+</html>
