@@ -1,11 +1,4 @@
-# 👩‍💻 Frontend Mentor - Stats preview card component
-
-[Frontend Mentor challenges](https://www.frontendmentor.io/) help you improve your coding skills by building realistic projects.
-
-This is a solution for [Stats Preview Card Component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) challenge.
-
-![Design preview for the Stats preview card component coding challenge](./styles/images/preview.png)
-
+# 👩‍💻 Stats preview card component
 
 ## The challenge
 
@@ -22,10 +15,18 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-## Live site solution
+<div>
+  <h3>
+    <a href= "https://amansgz.github.io/css-stats-preview-card-component/">
+      Live site
+    </a>
+    <span> | </span>
+    <a href= "https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-[Live site](https://amansgz.github.io/css-stats-preview-card-component/) deployed with GitHub Pages.
+![Design preview for the Stats preview card component coding challenge](./styles/images/preview.png)
 
-## Author
-
-- Frontend Mentor - [@amansgz](https://www.frontendmentor.io/profile/amansgz)
+This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
