@@ -15,44 +15,59 @@
 </head>
 <body>
   <main>
-  <article class= "card">
-    <picture>
-      <source 
-        srcset= "./styles/images/image-header-desktop.jpg" 
-        media= "(min-width: 1200px)" >
-      <img class= "image"
-        src= "./styles/images/image-header-mobile.jpg" alt= "Data analitycs team  working at office">
-    </picture>
-    
-    <div class= "card-body">
-      <h1 class= "card-title">
-        Get <strong>insights</strong> that help your business grow.
-      </h1>
-      <p class= "card-text">
-        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
-      </p> 
-      <div class= "card-stats">
-        <p>
-          10k+ 
-          <span class= "card-stats-headings">
-            companies
-          </span>
-        </p>
-        <p>
-          314 
-          <span class= "card-stats-headings">
-            templates
-          </span>
-        </p>
-        <p>
-          12m+ 
-          <span class= "card-stats-headings">
-            queries
-          </span>
-        </p>
+    <article class= "card">
+      <picture class= "card__image">
+        <source 
+          srcset= "./styles/images/image-header-desktop.jpg" 
+          media= "(min-width: 1200px)" >
+        <img class= "image"
+          src= "./styles/images/image-header-mobile.jpg" alt= "Data analitycs team  working at office">
+      </picture>
+      
+      <div class= "card__body">
+        <h1 class= "card__title">
+          Get <strong>insights</strong> that help your business grow.
+        </h1>
+        <p class= "card__text">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+        </p> 
+        <div class= "stats__container">
+          <p class= "stats__item">
+            10k+ 
+            <span >
+              companies
+            </span>
+          </p>
+          <p class= "stats__item">
+            314 
+            <span>
+              templates
+            </span>
+          </p>
+          <p class= "stats__item">
+            12m+ 
+            <span>
+              queries
+            </span>
+          </p>
+        </div>
       </div>
-    </div>
-  </article>  
+    </article>  
   </main>
+  
+  <footer class= "footer">
+    <small class= "footer__attribution">
+      Challenge by 
+      <a href= "https://www.frontendmentor.io?ref=challenge" 
+        target= "_blank">
+        Frontend Mentor
+      </a><br>
+      Coded by 
+      <a href= "https://github.com/amansgz"
+        target= "_blank">
+        @amansgz
+      </a>
+    </small>
+  </footer>
 </body>
 </html>
