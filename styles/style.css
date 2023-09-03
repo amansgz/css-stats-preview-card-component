@@ -29,10 +29,11 @@ main {
 }
 .card {
   width: 320px;
-  overflow: hidden;
+  margin-top: 1.5rem;
   background-color: var(--dark-desaturated-blue);
   border-radius: 12px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
 }
 .card__image img {
   display: block;
@@ -101,6 +102,7 @@ main {
   .card {
     width: 800px;
     display: flex;
+    margin-top: 0;
   }
   .card__image {
     order: 1;
